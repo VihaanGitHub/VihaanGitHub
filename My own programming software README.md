@@ -185,6 +185,45 @@ Advanced:
   To and from takes to or from.
   Y,Z and X axis are rotation directions.
  = means allow, ≠ means deny and ≈ means choose.
+  property ≠ direct by action means 
+  that you cant save your game,
+  to have to save it put:=, and for
+  the user being able to choose if they want to save it or not put:≈.
+process-location means that it can save your location {in game or out game}.
+list game{input-Allow account location means that, you will get the option to let the game use your
+  account or not, "list game" is the popup message, "allow account"
+  is the location tracker and,
+  "input" is what will it do if the
+  user did not allow the game to track thier location.
+  Voice session is, (0 acts: ≈)
+  that means that if you speak 0 times you have to choose if you want to triger the voice assistance, (1 act: =) that means that if you triger the assistant 1 time it will turn ON and, (3 acts: ≠) this means that if you triger the assistant 3 times IN A ROW then it will turn off.
+  selective choices mean that you can choose what and what not to do.
+  function chooses a command to implement in real time.
+  "developer command" is like a vector, it takes data and confirms more of it and then it categorizes the data.
+  style of letter includes:
+  strikethrough (-------)
+  italics: (///////////)
+  bold: (••••••••••••)
+  and, Underlined (____________)
+  underestimate by means that if a command with less or more value is implemented, the vector will sort them out: Overestimate (Higher) 
+  Underestimate (Lower)
+  The "Understand" allows a vector to sort it out.
+  "Substantial connectivity" means
+  that the game can tell the real 
+  life time if the users internet
+  is on. "UTC" is international and
+  "LTC" is local.
+  Include custom allows a vector to be stopped by a user.
+  Import time: Time sleep () means that you will have to wait a few seconds before a command can be implemented, put the time in the brackets.
+  By using the "import file" you can create, Show, or customize a file.
+  reality in program is PIP (picture in picture)
+  Import favicon puts an image next to the name of your website (logo)
+  3D+ Means that many frames can be operated and changed every 1/24th of a second, use *keyframes to make the frames into 1 big animation.
+  Comp means Computer
+  Delay means that there can be a 
+  delay between the frames, lowering the frame rate.
+  There is lastly an empty paragraph which you can put anything in.
+ Operator control is how to make money from the server. 
   <br><br>
 Structures, Attributes, Commands and Controls:
   Structures are: Structure,Structural start and
@@ -194,7 +233,7 @@ Structures, Attributes, Commands and Controls:
   Attributes are: Example: Blind Spot Attribute, Attributes
   are found inside of commands and they style a command to create a control.
   Controls are: Example: Ref Control, They are powered by attributes
-  and style the attribute.
+  and style the attributes
   <br><br>
 Scores:
   (- This is called a starting score,
